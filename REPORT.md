@@ -47,5 +47,5 @@ The required preprocessing is thus:
 My code has been lightly modified to allow the weights for the error function used in the linear equation solver to be parametrised from main.cpp. This allowed me faster compilation times while finetuning the weights. The weights I used are contained in line 165 of file main.cpp. Those are the weights for the car to drive at close 80mph. Lines 166-172 contain the weights required to drive at other speeds in 5mph intervals.
 
 In other projects there were problems for the reviewers to attain the same results on their machines as I was getting on mine. To prevent this I have uploaded videos of my MPC Controller driving the car around the track at speeds 60 and 80mph:
-* 60 mph:
-* 80 mph:
+* [Video driving at 60 mph](https://youtu.be/Mdgnc0seLps)
+* [Video driving at 80 mph](https://youtu.be/f3EK1LkF4ZE)
