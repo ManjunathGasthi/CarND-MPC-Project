@@ -20,7 +20,7 @@ And we have two actuators:
 
 The equations for the update between two timesteps *t* and *t-1* separated by *dt* is as follows:
 
-![Update Equations](CarND-MPC-Project/update equations.png "Update equations")
+![Update Equations](https://github.com/hectorratia/CarND-MPC-Project/update equations.png "Update equations")
 
 In the project the equations are applied in car coordinates and set all inputs to the angle reference used in class, which is sometimes different than the reference used by the simulator. This allows to keep all signs in the equation the same as in class, but requires to make sure that the signs for steering are taking care of before returning to the simulator. The function *f(x)* is the grade 3 polynomial aproximation of the waypoints trajectory in car coordinates.
 
