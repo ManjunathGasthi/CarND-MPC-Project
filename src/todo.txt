@@ -1,0 +1,3 @@
+dibujar las lineas correctas
+aumentar la velocidad tuneando la funcion de peso
+corregir los valores que se pasan al solver y que se recuperan para el coche
